@@ -31,10 +31,8 @@
 			.map {
 				height: 350px;
 			}
-		</style>
-
-		<style type="text/css">
-			#triangle {
+		
+			#triangle, #triangle-1, #triangle-2, #triangle-3 {
 			width: 0;
 			height: 0; 
 			border-left: 300px solid transparent;
@@ -42,55 +40,59 @@
 			border-bottom: 465px solid rgb(31, 56, 197);
 			margin: 0 auto;
 			}
-			#triangle-a {
+			#triangle-a, #triangle-a1, #triangle-a2, #triangle-a3 {
 				position: absolute;
-				top: 300px;
+				top: 440px;
 				left: 230px;
 				width: 50px;
 			}
-			#triangle-b {
+			#triangle-b, #triangle-b1, #triangle-b2, #triangle-b3 {
 				position: absolute;
-				top: 300px;
+				top: 440px;
 				left: 670px;
 				width: 50px;
 			}
-			#triangle-c {
+			#triangle-c, #triangle-c1, #triangle-c2, #triangle-c3 {
 				position: absolute;
 				top: 600px;
 				left: 450px;
 				width: 50px;
 			}
-			#triangle-perimeter {
+			#triangle-h1, #triangle-alpha2, #triangle-p3 {
+				position: absolute;
+				top: 550px;
+				left: 450px;
+				width: 50px;
+			}
+			#triangle-perimeter, #triangle-square-1, #triangle-square-2, #triangle-square-3 {
 			position: absolute;
 			top: 502px;
 			left: 235px;
 			color: white;
 			}
-		</style>
-		<style>
-			#circle {
+		
+			#circle, #circle-1, #circle-2 {
 			width: 500px;
 			height: 500px;
 			background: green;
 			border-radius: 500px;
 			margin: 0 auto;
 			}
-			#circle-r {
+			#circle-r, #circle-r1, #circle-l {
 			position: absolute;
 			top: 450px;
 			left: 450px;
 			width: 50px;
 			}
-			#circle-perimeter {
+			
+			#circle-perimeter, #circle-square-1, #circle-square-2 {
 			position: absolute;
 			top: 310px;
 			left: 270px;
 			color: white;
 			}
-		</style>
-
-		<style>
-			#trapezoid {
+		
+			#trapezoid, #trapezoid-1, #trapezoid-2 {
 			border-bottom: 413px solid blueviolet;
 			border-left: 180px solid transparent;
 			border-right: 180px solid transparent;
@@ -98,40 +100,51 @@
 			width: 262px;
 			margin: 0 auto;
 			}
-			#trapezoid-a {
+			#trapezoid-a, #trapezoid-a1, #trapezoid-a2 {
 			position: absolute;
-			top: 129px;
+			top: 191px;
 			left: 450px;
 			width: 50px;
 			}
-			#trapezoid-b {
+			#trapezoid-b, #trapezoid-b1, #trapezoid-b2 {
 			position: absolute;
 			top: 298px;
 			left: 701px;
 			width: 50px;
 			}
-			#trapezoid-c {
+			#trapezoid-c, #trapezoid-c1, #trapezoid-c2 {
 			position: absolute;
 			top: 618px;
 			left: 450px;
 			width: 50px;
 			}
-			#trapezoid-d {
+			#trapezoid-d, #trapezoid-d1, #trapezoid-d2 {
 			position: absolute;
 			top: 298px;
 			left: 195px;
 			width: 50px;
 			}
-			#trapezoid-perimeter {
+			#trapezoid-h, #trapezoid-h2 {
+			position: absolute;
+			top: 417px;
+			left: 350px;
+			width: 50px;
+			}
+			#trapezoid-m2 {
+			position: absolute;
+			top: 417px;
+			left: 425px;
+			width: 50px;
+			}
+			#trapezoid-perimeter, #trapezoid-square-1, #trapezoid-square-2 {
 				position: absolute;
 				top: 500px;
 				left: 268px;
 				color: white;
 			}
-		</style>
+		
 
-		<style>
-			#parallelogram {
+			#parallelogram, #parallelogram-1, #parallelogram-2 {
 			width: 350px;
 			height: 350px;
 			transform: skew(20deg);
@@ -140,54 +153,122 @@
 			}
 			#parallelogram-a {
 			position: absolute;
-			top: 282px;
-			left: 241px;
+			top: 554px;
+			left: 421px;
 			width: 50px;
 			}
 			#parallelogram-b {
 			position: absolute;
-			top: 119px;
-			left: 402px;
+			top: 332px;
+			left: 179px;
 			width: 50px;
 			}
 			#parallelogram-c {
 			position: absolute;
-			top: 272px;
-			left: 667px;
+			top: 211px;
+			left: 421px;
 			width: 50px;
 			}
 			#parallelogram-d {
 			position: absolute;
-			top: 473px;
-			left: 504px;
+			top: 332px;
+			left: 663px;
 			width: 50px;
 			}
-			#parallelogram-perimeter {
+			#parallelogram-a-1,#parallelogram-a-2 {
+			position: absolute;
+			top: 562px;
+			left: 431px;
+			width: 50px;
+			}
+			#parallelogram-b-1,#parallelogram-b-2 {
+			position: absolute;
+			top: 404px;
+			left: 221px;
+			width: 50px;
+			}
+			#parallelogram-c-1, #parallelogram-c-2 {
+			position: absolute;
+			top: 277px;
+			left: 421px;
+			width: 50px;
+			}
+			#parallelogram-d-1, #parallelogram-d-2 {
+			position: absolute;
+			top: 404px;
+			left: 663px;
+			width: 50px;
+			}
+			#parallelogram-perimeter, #parallelogram-square-1, #parallelogram-square-2 {
 			position: absolute;
 			top: 497px;
     		left: 102px;
 			color: white;
 			}
-		</style>
+			#parallelogram-h-1, #parallelogram-alpha {
+			position: absolute;
+			top: 562px;
+			left: 551px;
+			width: 50px;
+			}
+		
 
-		<style>
-			#square {
+			#square, #square-1, #square-2 {
 			width: 300px;
 			height: 300px;
 			background: rgb(136, 68, 192);
 			margin: 0 auto;
 			}
-			#square-a {
+			#square-a, #square-a-1, #square-d-2 {
 			position: absolute;
 			top: 264px;
     		left: 241px;
 			width: 50px;
 			}
-			#square-perimeter {
+			#square-perimeter, #square-area-1, #square-area-2 {
 			position: absolute;
 			top: 450px;
     		left: 450px;
 			color: white;
+			}
+
+			/*#rhombus-1, #rhombus-2, #rhombus-3 {
+			width: 300px;
+			height: 300px;
+			background: rgb(163, 23, 93);
+			margin: 0 auto;
+			}*/
+			#rhombus-a-1, #rhombus-a-2, #rhombus-d1 {
+			position: absolute;
+			top: 300px;
+    		left: 241px;
+			width: 50px;
+			}
+			#rhombus-h, #rhombus-alpha, #rhombus-d2 {
+			position: absolute;
+			top: 264px;
+    		left: 241px;
+			width: 50px;
+			}
+
+			#rhombus-1, #rhombus-2, #rhombus-3 {
+			width: 0; 
+			height: 0;
+			border: 140px solid transparent;
+			border-bottom-color: #53BA88;
+			position: relative; 
+			top: -140px;
+			margin: 0 auto;
+			}
+			#rhombus-1::after, #rhombus-2::after, #rhombus-3::after {
+			content: "";
+			width: 0; 
+			height: 0;
+			position: absolute; 
+			left: -140px; 
+			top: 140px;
+			border: 140px solid transparent;
+			border-top-color: #53BA88;
 			}
 		</style>
 		
@@ -246,7 +327,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Геометрические фигуры
+						### Геометрические фигуры: круг
 
 						Круг — часть плоскости, которая лежит внутри окружности. 
 						Другими словами, это геометрическое место точек плоскости, 
@@ -261,7 +342,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Геометрические фигуры
+						### Геометрические фигуры: квадрат
 
 						Квадрат (от лат. quadratus, четырёхугольный) — правильный четырёхугольник, 
 						то есть плоский четырёхугольник, у которого все углы равны и все стороны равны. 
@@ -274,7 +355,7 @@
 
 				<section class="center" data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Геометрические фигуры
+						### Геометрические фигуры: треугольник
 
 						Треугольник — геометрическая фигура, образованная тремя отрезками, 
 						которые соединяют три точки, не лежащие на одной прямой. Указанные три точки 
@@ -287,9 +368,9 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Геометрические фигуры
+						### Геометрические фигуры: параллелограмм
 
-						Параллелогра́мм (др. -греч. παραλληλόγραμμον от παράλληλος — параллельный и γραμμή — линия) 
+						Параллелограмм (др. -греч. παραλληλόγραμμον от παράλληλος — параллельный и γραμμή — линия) 
 						— это четырёхугольник, у которого противолежащие стороны попарно параллельны, 
 						то есть лежат на параллельных прямых. Частными случаями параллелограмма являются 
 						прямоугольник, квадрат и ромб.
@@ -301,7 +382,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Геометрические фигуры
+						### Геометрические фигуры: ромб
 
 						Ромб (др.-греч. ῥόμβος, лат. rombus, в буквальном переводе: «бубен») — 
 						это параллелограмм, у которого все стороны равны.
@@ -313,7 +394,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Геометрические фигуры
+						### Геометрические фигуры: трапеция
 
 						Трапеция (от др.-греч. τραπέζιον — «столик» от τράπεζα — «стол») — 
 						выпуклый четырёхугольник, у которого две стороны параллельны, а две другие стороны не параллельны.
@@ -351,7 +432,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Периметр круга
+						### Периметр круга. Пример
 
 						Пример. Найти периметр круга, радиус которого равен 2 см.
 						$$
@@ -364,10 +445,10 @@
 				</section>
 
 				<section>
-					<h3>Периметр круга</h3>
+					<h3>Вычисление периметра круга</h3>
 					<div id="circle"></div>
 					<input type="text" class="circle-perimeter" id="circle-r" placeholder="r">
-					<output id="circle-perimeter"></output>
+					<output id="circle-perimeter"></output> 
 				</section>
 
 				<section data-markdown  data-separator-notes="^Note:">
@@ -388,7 +469,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Периметр трапеции
+						### Периметр трапеции. Пример
 
 						Пример. Найти периметр трапеции, если ее основания равны 7 и 10 см,
 						 а боковые стороны – 4 и 5 см.
@@ -402,7 +483,7 @@
 				</section>
 
 				<section>
-					<h3>Периметр трапеции</h3>
+					<h3>Вычисление периметра трапеции</h3>
 					<div id="trapezoid"></div>
 					<input type="text" class="trapezoid-perimeter" id="trapezoid-a" placeholder="a">
 					<input type="text" class="trapezoid-perimeter" id="trapezoid-b" placeholder="b">
@@ -428,7 +509,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Периметр треугольника
+						### Периметр треугольника. Пример
 
 						Пример. Дан треугольник $ABC$ со сторонами $AB = 5 см, BC = 2 см, AC = 6 см$. 
 						Найти его периметр.
@@ -442,7 +523,7 @@
 				</section>
 
 				<section>
-					<h3>Периметр треугольника</h3>
+					<h3>Вычисление периметра треугольника</h3>
 					<div id="triangle"></div>
 					<input type="text" class="triangle-perimeter" id="triangle-a" placeholder="a">
 					<input type="text" class="triangle-perimeter" id="triangle-b" placeholder="b">
@@ -467,7 +548,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Периметр параллелограмма
+						### Периметр параллелограмма. Пример
 
 						Пример. Найти периметр параллелограмма $ABCD$ со сторонами $a = 1,3 см и b = 3,2 см$.
 						$$
@@ -480,7 +561,7 @@
 				</section>
 
 				<section>
-					<h3>Периметр параллелограмма</h3>
+					<h3>Вычисление периметра параллелограмма</h3>
 					<div id="parallelogram"></div>
 					<input type="text" class="parallelogram-perimeter" id="parallelogram-a" placeholder="a">
 					<input type="text" class="parallelogram-perimeter" id="parallelogram-b" placeholder="b">
@@ -506,7 +587,7 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Периметр квадрата и ромба
+						### Периметр квадрата и ромба. Пример
 
 						Пример. Дан квадрат $ABCD$ со стороной $a = 0,25 см$. 
 						Вычислить периметр заданного квадрата.
@@ -521,7 +602,7 @@
 				</section>
 
 				<section>
-					<h3>Периметр квадрата и ромба</h3>
+					<h3>Вычисление периметра квадрата и ромба</h3>
 					<div id="square"></div>
 					<input type="text" class="square-perimeter" id="square-a" placeholder="a">
 					<output id="square-perimeter"></output>
@@ -537,15 +618,41 @@
 
 				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						### Площадь круга
+						### Площадь круга через радиус
 
-						Площадь круга через радиус
 						$$
 						S = \pi \cdot r^2
 						$$
-						Площадь круга через длину окружности
+
+						Пример. Пусть дана окружность с радиусом $R = 4 см$. Найдем площадь фигуры.
+						 $$
+						 S = 3,14 \cdot 4^2 = 3,14 \cdot 16 = 50,24 см^2
+						 $$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади круга через радиус</h3>
+					<div id="circle-1"></div>
+					<input type="text" class="circle-square" id="circle-r1" placeholder="r">
+					<output id="circle-square-1"></output> 
+				</section>
+
+				
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь круга через длину окружности
+
 						$$
-						S = 
+						S = \frac{l^2}{4 \cdot \pi}, ~где ~l = 2 \pi r
+						$$
+						
+						Пример. Дан радиус окружности $r = 3$ см. Найти площадь.
+						$$
+						l = 2 \cdot 3,14 \cdot 3 = 18,84 ~ см, ~ S = \dfrac{18,84^2}{4 \cdot 3,14} = 28,26 ~ см^2
 						$$
 						
 						Note:
@@ -553,28 +660,353 @@
 					</script>
 				</section>
 
-
+				<section>
+					<h3>Вычисление площади круга через длину окружности</h3>
+					<div id="circle-2"></div>
+					<input type="text" class="circle-square-2" id="circle-l" placeholder="l">
+					<output id="circle-square-2"></output> 
+				</section>
 				
 				
-
-
-
-				
-				<!-- Блок для исходных кодов-->
-				<section class="center" data-markdown  data-separator-notes="^Note:">
+				<section data-markdown  data-separator-notes="^Note:">
 					<script type="text/template">
-						Исходный код программ
-						----
+						### Площадь трапеции через основание и высоту
+
+						$$
+						S = \frac{a + b}{2} \cdot h
+						$$
+						где $a, b$ - основания, $h$ - высота 
+
+						Пример. Найти площадь трапеции, если ее основания равны $a = 7, b = 8$ и высота $h = 5$
+						$$
+						S = \frac{7+8}{2} \cdot 5 = 7,5 \cdot 5 = 37,5 
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади трапеции через основание и высоту</h3>
+					<div id="trapezoid-1"></div>
+					<input type="text" class="trapezoid-square" id="trapezoid-a1" placeholder="a">
+					<input type="text" class="trapezoid-square" id="trapezoid-b1" placeholder="b">
+					<input type="text" class="trapezoid-square" id="trapezoid-c1" placeholder="c">
+					<input type="text" class="trapezoid-square" id="trapezoid-d1" placeholder="d">
+					<input type="text" class="trapezoid-square" id="trapezoid-h" placeholder="h">
+					<output id="trapezoid-square-1"></output>
+				</section>
+
+				
+
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь трапеции через среднюю линию и высоту
+
+						$$
+						S = m \cdot h
+						$$ 
+						где m - средняя линия, h - высота
+
+						Пример. Найти площадь трапеции, если известно, что средняя линия равна 5 см, а высота - 10 см.
+						$$
+						S = 5 \cdot 10 = 50 ~см^2
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади  трапеции через среднюю линию и высоту</h3>
+					<div id="trapezoid-2"></div>
+					<input type="text" class="trapezoid-square-2" id="trapezoid-a2" placeholder="a">
+					<input type="text" class="trapezoid-square-2" id="trapezoid-b2" placeholder="b">
+					<input type="text" class="trapezoid-square-2" id="trapezoid-c2" placeholder="c">
+					<input type="text" class="trapezoid-square-2" id="trapezoid-d2" placeholder="d">
+					<input type="text" class="trapezoid-square-2" id="trapezoid-h2" placeholder="h">
+					<input type="text" class="trapezoid-square-2" id="trapezoid-m2" placeholder="m">
+					<output id="trapezoid-square-2"></output>
+				</section>
+
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь треугольника через основание и высоту
+
+						$$
+						S = \dfrac{a \cdot h}{2}, ~где ~a - основание, h - высота
+						$$
+
+						Пример. Основание треугольника равно 15 см, высота - 20 см. Найти площадь.
+						$$
+						S = \dfrac{15 \cdot 20}{2} = 150 ~см^2
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади треугольника через основание и высоту</h3>
+					<div id="triangle-1"></div>
+					<input type="text" class="triangle-square-1" id="triangle-a1" placeholder="a">
+					<input type="text" class="triangle-square-1" id="triangle-b1" placeholder="b">
+					<input type="text" class="triangle-square-1" id="triangle-c1" placeholder="c">
+					<input type="text" class="triangle-square-1" id="triangle-h1" placeholder="h">
+					<output id="triangle-square-1"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь треугольника по двум сторонам и углу между ними 
+
+						$$
+						S = \dfrac{a \cdot b}{2} \cdot \sin{\alpha},
+						$$
+						где $a, b$ - стороны, $\alpha$ - угол между ними
+
+						Пример. Одна сторона треугольника равна 4, вторая - 6. Угол между ними равен $45^{\circ}$. Найти площадь.
+						$$
+						S = \dfrac{4 \cdot 6}{2} \cdot \sin 45^{\circ} = 8, 485
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади треугольника по двум сторонам и углу между ними</h3>
+					<div id="triangle-2"></div>
+					<input type="text" class="triangle-square-2" id="triangle-a2" placeholder="a">
+					<input type="text" class="triangle-square-2" id="triangle-b2" placeholder="b">
+					<input type="text" class="triangle-square-2" id="triangle-c2" placeholder="c">
+					<input type="text" class="triangle-square-2" id="triangle-alpha2" placeholder="alpha">
+					<output id="triangle-square-2"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь треугольника по трем сторонам (формула Герона)
+
+						$$
+						S = \sqrt{p \cdot (p-a) \cdot (p-b) \cdot (p-c)},
+						$$
+						где $a,b,c$ - стороны, $p$ - периметр
+
+						Пример. Периметр треугольника равен 24 см, стороны - 12 см, 16 см, 20 см. Найти площадь.
+						$$
+						S = \sqrt{24 \cdot (24-12) \cdot (24-16) \cdot (24-20)} = 96 ~см^2
+						$$ 
+					
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади треугольника по трем сторонам (формула Герона)</h3>
+					<div id="triangle-3"></div>
+					<input type="text" class="triangle-square-3" id="triangle-a3" placeholder="a">
+					<input type="text" class="triangle-square-3" id="triangle-b3" placeholder="b">
+					<input type="text" class="triangle-square-3" id="triangle-c3" placeholder="c">
+					<output id="triangle-square-3"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь параллелограмма по основанию и высоте
+
+						$$
+						S = a \cdot h,
+						$$
+						где a - основание, h - высота
+
+						Пример. Основание параллелограмма равно 10. Высота равна 5. Найти площадь.
+						$$
+						S = 10 \cdot 5 = 50 ~см^2
+						$$
 
 						Note:
 
 					</script>
 				</section>
 
-				
+				<section>
+					<h3>Вычисление площади параллелограмма по основанию и высоте</h3>
+					<div id="parallelogram-1"></div>
+					<input type="text" class="parallelogram-square-1" id="parallelogram-a-1" placeholder="a">
+					<input type="text" class="parallelogram-square-1" id="parallelogram-b-1" placeholder="b">
+					<input type="text" class="parallelogram-square-1" id="parallelogram-c-1" placeholder="c">
+					<input type="text" class="parallelogram-square-1" id="parallelogram-d-1" placeholder="d">
+					<input type="text" class="parallelogram-square-1" id="parallelogram-h-1" placeholder="h">
+					<output id="parallelogram-square-1"></output>
+				</section>
 
-				
 
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь параллелограмма по 2 сторонам и углу между ними
+
+						$$
+						S = a \cdot b \cdot \sin{\alpha},
+						$$
+						где $a, b$ - стороны, $\alpha$ - угол между ними
+
+						Пример. Стороны параллелограмма равны 6 см и 8 см, а угол между ними равен $60^{\circ}$. Найти площадь.
+						$$
+						S = 6 \cdot 8 \cdot \sin 60^{\circ} = 41, 569 ~см^2
+						$$
+
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади параллелограмма по 2 сторонам и углу между ними</h3>
+					<div id="parallelogram-2"></div>
+					<input type="text" class="parallelogram-square-2" id="parallelogram-a-2" placeholder="a">
+					<input type="text" class="parallelogram-square-2" id="parallelogram-b-2" placeholder="b">
+					<input type="text" class="parallelogram-square-2" id="parallelogram-c-2" placeholder="c">
+					<input type="text" class="parallelogram-square-2" id="parallelogram-d-2" placeholder="d">
+					<input type="text" class="parallelogram-square-2" id="parallelogram-alpha" placeholder="alpha">
+					<output id="parallelogram-square-2"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь ромба через сторону и высоту
+
+						$$
+						S = a \cdot h,
+						$$
+						где a - сторона, h - высота
+
+						Пример. Дана сторона ромба и высота - 5 см и 6 см соответственно. Найти площадь.
+						$$
+						S = 5 \cdot 6 = 30 ~см^2
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади ромба через сторону и высоту</h3>
+					<div id="rhombus-1"></div>
+					<input type="text" class="rhombus-area-1" id="rhombus-a-1" placeholder="a">
+					<input type="text" class="rhombus-area-1" id="rhombus-h" placeholder="h">
+					<output id="rhombus-area-1"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь ромба по стороне и углу
+
+						$$
+						S = a^2 \cdot \sin{\alpha},
+						$$
+					
+						Пример. Сторона ромба равна 8 см, угол - $65^{\circ}$. Найти площадь.
+						$$
+						S = 8^2 \cdot \sin 65^{\circ} = 58,004 ~см^2
+						$$
+
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади ромба по стороне и углу</h3>
+					<div id="rhombus-2"></div>
+					<input type="text" class="rhombus-area-2" id="rhombus-a-2" placeholder="a">
+					<input type="text" class="rhombus-area-2" id="rhombus-alpha" placeholder="alpha">
+					<output id="rhombus-area-2"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь ромба через диагонали
+
+						$$
+						S = \dfrac{d_{1} \cdot d_{2}}{2}
+						$$
+						
+						Пример. Диагонали ромба равны 15 см и 10 см. Найти площадь.
+						$$
+						S = S = \dfrac{15 \cdot 10}{2} = 75 ~см^2
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади ромба через диагонали</h3>
+					<div id="rhombus-3"></div>
+					<input type="text" class="rhombus-area-3" id="rhombus-d1" placeholder="d2">
+					<input type="text" class="rhombus-area-3" id="rhombus-d2" placeholder="d1">
+					<output id="rhombus-area-3"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь квадрата по стороне
+
+						$$
+						S = a^2 
+						$$
+						
+						Пример. Найти площадь квадрата, сторона которого равна 7 см.
+						$$
+						S = 7^2 = 49 ~см^2
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади квадрата по стороне</h3>
+					<div id="square-1"></div>
+					<input type="text" class="square-area-1" id="square-a-1" placeholder="a">
+					<output id="square-area-1"></output>
+				</section>
+
+				<section data-markdown  data-separator-notes="^Note:">
+					<script type="text/template">
+						### Площадь квадрата по диагонали
+
+						$$
+						S = \dfrac{d^2}{2}
+						$$
+
+						Пример. Найти площадь квадрата, диагональ которого равняется 4 см.
+						$$
+						S = \dfrac{4^2}{2} = 8 ~см^2
+						$$
+						
+						Note:
+
+					</script>
+				</section>
+
+				<section>
+					<h3>Вычисление площади квадрата по диагонали</h3>
+					<div id="square-2"></div>
+					<input type="text" class="square-area-2" id="square-d-2" placeholder="d">
+					<output id="square-area-2"></output>
+				</section>
 			</div>
 		</div>
 
@@ -617,52 +1049,7 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
 			});
 		</script>
-		<script>
-			//Переменные слоя карты, содержающие метки городов
-			let markersLayer;
-			let markersLayer2;
-			let markersLayer3;
-			//Массив меток городов
-			let markers;
-			let markers2;
-			let markers3 = [];
-			//Копия последнего массива меток для отката назад, если понадобится
-			let markersCopy = [];
-			//Счет игры
-			let score2 = [0,0];
-			let score3 = [0,0];
-			//Последние координаты для подсчета счета игры
-			let lastCoord2 = [];
-			let lastCoord3 = [];
-			//Имя играющего
-			let name;
-			//Имя противника
-			let opponent;
-			//Метка кто ходит первым, а кто вторым
-			let whoGo;
-			//Номер игровой комнаты
-			let room;
-			//Ссылка на подключение сокета
-			let socket;
-			//Множество городов для третьей игры
-			let game3Set;
-
-			//Запускаем наши программы только после того, как вся страница полностью прогрузится
-			window.onload = () => {
-
-				//Костыль для совместной работы меню и input
-				//Имеется баг, при введение мягкого знака в поле вода
-				//включается меню. Этим костылем мы отменяем это действие
-				document.addEventListener('keydown', (event) => {
-					//Так как код клавиши Ь - 77, а тег INPUT, то сравниваем
-					//и закрываем меню при соблюдение условий
-					if (event.keyCode === 77 && ['INPUT'].indexOf(
-						event.target.tagName
-					) > -1) {
-						RevealMenu.toggle();
-					}
-				});	
-		</script>
+		
 
 		//ПЕРИМЕТР ТРЕУГОЛЬНИКА
 		<script type="text/javascript">
@@ -692,17 +1079,136 @@
 			}
 		</script>
 
+		//площадь треугольника через основание и высоту
+		<script type="text/javascript">
+			//Получаем список input
+			let triangleSquare = document.querySelectorAll(".triangle-square-1");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < triangleSquare.length; i++) {
+			triangleSquare[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#triangle-a1');
+			let b = document.querySelector('#triangle-b1');
+			let c = document.querySelector('#triangle-c1');
+			let h = document.querySelector('#triangle-h1');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && b.value !== '' && c.value !== '' && h.value !== '') {
+			//Проверим существование треугольника
+			//сумма двух сторон всегда больше 3.
+			if (
+			+a.value + +b.value <= +c.value ||
+			+a.value + +c.value <= +b.value ||
+			+c.value + +b.value <= +a.value
+			) {
+			return document.querySelector('#triangle-square-1').innerHTML = `Треугольник не существует`;
+			}
+			//Выпишем результат
+			return document.querySelector('#triangle-square-1').innerHTML = `S=${c.value*h.value/2}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь треугольника по двум сторонам и углу между ними
+		<script type="text/javascript">
+			//Получаем список input
+			let triangleSquareArea = document.querySelectorAll(".triangle-square-2");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < triangleSquareArea.length; i++) {
+			triangleSquareArea[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#triangle-a2');
+			let b = document.querySelector('#triangle-b2');
+			let c = document.querySelector('#triangle-c2');
+			let alpha = document.querySelector('#triangle-alpha2');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && b.value !== '' && c.value !== '' && alpha.value !== '') {
+			//Проверим существование треугольника
+			//сумма двух сторон всегда больше 3.
+			if (
+			+a.value + +b.value <= +c.value ||
+			+a.value + +c.value <= +b.value ||
+			+c.value + +b.value <= +a.value
+			) {
+			return document.querySelector('#triangle-square-2').innerHTML = `Треугольник не существует`;
+			}
+			//Выпишем результат
+			return document.querySelector('#triangle-square-2').innerHTML = `S=${(a.value*b.value/2)*Math.sin(alpha.value * Math.PI / 180)}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь треугольника по трем сторонам (формула Герона)
+		<script type="text/javascript">
+			//Получаем список input
+			let triangleArea = document.querySelectorAll(".triangle-square-3");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < triangleArea.length; i++) {
+			triangleArea[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#triangle-a3');
+			let b = document.querySelector('#triangle-b3');
+			let c = document.querySelector('#triangle-c3');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && b.value !== '' && c.value !== '') {
+			//Проверим существование треугольника
+			//сумма двух сторон всегда больше 3.
+			if (
+			+a.value + +b.value <= +c.value ||
+			+a.value + +c.value <= +b.value ||
+			+c.value + +b.value <= +a.value
+			) {
+			return document.querySelector('#triangle-square-3').innerHTML = `Треугольник не существует`;
+			}
+			//Выпишем результат
+			let p = (+a.value + +b.value + +c.value)/2;
+			return document.querySelector('#triangle-square-3').innerHTML = `p=${(+a.value + +b.value + +c.value)/2}, S=${Math.sqrt(p * (p - a.value) * (p - b.value) * (p - c.value))}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
 		//ПЕРИМЕТР КРУГА
 		<script type="text/javascript">
 			//Получаем список input
 			let circlePerimeter = document.querySelectorAll(".circle-perimeter");
 			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
-			for (i = 0; i < trianglePerimeter.length; i++) {
+			for (i = 0; i < circlePerimeter.length; i++) {
 			circlePerimeter[i].addEventListener('keyup', function(i) {
 			let r = document.querySelector('#circle-r');
 			//результат покажем, только когда будут заполнены все стороны
 			if (r.value !== '') {
 			return document.querySelector('#circle-perimeter').innerHTML = `P=${2*Math.PI*r.value}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь круга через радиус
+		<script type="text/javascript">
+			//Получаем список input
+			let circleSquare = document.querySelectorAll(".circle-square");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < circleSquare.length; i++) {
+			circleSquare[i].addEventListener('keyup', function(i) {
+			let r = document.querySelector('#circle-r1');
+			//результат покажем, только когда будут заполнены все стороны
+			if (r.value !== '') {
+			return document.querySelector('#circle-square-1').innerHTML = `S=${Math.PI*r.value*r.value}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь круга через длину окружности
+		<script type="text/javascript">
+			//Получаем список input
+			let circleArea = document.querySelectorAll(".circle-square-2");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < circleArea.length; i++) {
+				circleArea[i].addEventListener('keyup', function(i) {
+			let l = document.querySelector('#circle-l');
+			//результат покажем, только когда будут заполнены все стороны
+			if (l.value !== '') {
+			return document.querySelector('#circle-square-2').innerHTML = `S=${l.value*l.value/(4*Math.PI)}`;
 			}
 			}.bind(this, i));
 			}
@@ -737,6 +1243,67 @@
 			}
 		</script>
 
+		//площадь трапеции через основания и высоту
+		<script type="text/javascript">
+			//Получаем список input
+			let trapezoidSquare = document.querySelectorAll(".trapezoid-square");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < trapezoidSquare.length; i++) {
+			trapezoidSquare[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#trapezoid-a1');
+			let b = document.querySelector('#trapezoid-b1');
+			let c = document.querySelector('#trapezoid-c1');
+			let d = document.querySelector('#trapezoid-d1');
+			let h = document.querySelector('#trapezoid-h');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && b.value !== '' && c.value !== '' && d.value !== '' && h.value !== '') {
+			//Проверим существование 
+			if (
+			+a.value + +b.value + +d.value <= +c.value ||
+			+a.value + +c.value + +d.value <= +b.value ||
+			+c.value + +b.value + +d.value <= +a.value ||
+			+a.value + +b.value + +c.value <= +d.value
+			) {
+			return document.querySelector('#trapezoid-square-1').innerHTML = `Трапеция не существует`;
+			}
+			//Выпишем результат
+			return document.querySelector('#trapezoid-square-1').innerHTML = `S=${(a.value + b.value)/2*h.value}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь трапеции через среднюю линию и высоту
+		<script type="text/javascript">
+			//Получаем список input
+			let trapezoidArea = document.querySelectorAll(".trapezoid-square-2");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < trapezoidArea.length; i++) {
+			trapezoidArea[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#trapezoid-a2');
+			let b = document.querySelector('#trapezoid-b2');
+			let c = document.querySelector('#trapezoid-c2');
+			let d = document.querySelector('#trapezoid-d2');
+			let h = document.querySelector('#trapezoid-h2');
+			let m = document.querySelector('#trapezoid-m2');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && b.value !== '' && c.value !== '' && d.value !== '' && h.value !== '' && m.value !== '') {
+			//Проверим существование 
+			if (
+			+a.value + +b.value + +d.value <= +c.value ||
+			+a.value + +c.value + +d.value <= +b.value ||
+			+c.value + +b.value + +d.value <= +a.value ||
+			+a.value + +b.value + +c.value <= +d.value
+			) {
+			return document.querySelector('#trapezoid-square-2').innerHTML = `Трапеция не существует`;
+			}
+			//Выпишем результат
+			return document.querySelector('#trapezoid-square-2').innerHTML = `S=${m.value * h.value}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
 		//ПЕРИМЕТР ПАРАЛЛЕЛОГРАММА
 		<script type="text/javascript">
 			//Получаем список input
@@ -766,6 +1333,67 @@
 			}
 		</script>
 
+		//площадь параллелограмма через основание и высоту
+		<script type="text/javascript">
+			//Получаем список input
+			let parallelogramSquare = document.querySelectorAll(".parallelogram-square-1");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < parallelogramSquare.length; i++) {
+			parallelogramSquare[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#parallelogram-a-1');
+			let b = document.querySelector('#parallelogram-b-1');
+			let c = document.querySelector('#parallelogram-c-1');
+			let d = document.querySelector('#parallelogram-d-1');
+			let h = document.querySelector('#parallelogram-h-1');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && b.value !== '' && c.value !== '' && d.value !== '' && h.value !== '') {
+			//Проверим существование 
+			if (
+			+a.value + +b.value + +d.value <= +c.value ||
+			+a.value + +c.value + +d.value <= +b.value ||
+			+c.value + +b.value + +d.value <= +a.value ||
+			+a.value + +b.value + +c.value <= +d.value
+			) {
+			return document.querySelector('#parallelogram-square-1').innerHTML = `Параллелограмм не существует`;
+			}
+			//Выпишем результат
+			return document.querySelector('#parallelogram-square-1').innerHTML = `S=${b.value * h.value}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь параллелограмма по двум сторонам и углу между ними
+		<script type="text/javascript">
+			//Получаем список input
+			let parallelogramAreaInit = document.querySelectorAll(".parallelogram-square-2");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < parallelogramAreaInit.length; i++) {
+			parallelogramAreaInit[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#parallelogram-a-2');
+			let b = document.querySelector('#parallelogram-b-2');
+			let c = document.querySelector('#parallelogram-c-2');
+			let d = document.querySelector('#parallelogram-d-2');
+			let alpha = document.querySelector('#parallelogram-alpha');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && b.value !== '' && c.value !== '' && d.value !== '' && alpha.value !== '') {
+			//Проверим существование 
+			if (
+			+a.value + +b.value + +d.value <= +c.value ||
+			+a.value + +c.value + +d.value <= +b.value ||
+			+c.value + +b.value + +d.value <= +a.value ||
+			+a.value + +b.value + +c.value <= +d.value
+			) {
+			return document.querySelector('#parallelogram-square-2').innerHTML = `Параллелограмм не существует`;
+			}
+			//Выпишем результат
+			return document.querySelector('#parallelogram-square-2').innerHTML = `S=${a.value * b.value * Math.sin(alpha.value * Math.PI / 180)}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//периметр квадрата
 		<script type="text/javascript">
 			//Получаем список input
 			let squarePerimeter = document.querySelectorAll(".square-perimeter");
@@ -780,6 +1408,91 @@
 			}.bind(this, i));
 			}
 		</script>
+
+
+		//площадь квадрата по стороне
+		<script type="text/javascript">
+			//Получаем список input
+			let squareArea = document.querySelectorAll(".square-area-1");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < squareArea.length; i++) {
+			squareArea[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#square-a-1');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '') {
+			return document.querySelector('#square-area-1').innerHTML = `S=${a.value*a.value}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь квадрата по диагонали
+		<script type="text/javascript">
+			//Получаем список input
+			let squareAreaa = document.querySelectorAll(".square-area-2");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < squareAreaa.length; i++) {
+			squareAreaa[i].addEventListener('keyup', function(i) {
+			let d = document.querySelector('#square-d-2');
+			//результат покажем, только когда будут заполнены все стороны
+			if (d.value !== '') {
+			return document.querySelector('#square-area-2').innerHTML = `S=${d.value*d.value/2}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь ромба через сторону и высоту
+		<script type="text/javascript">
+			//Получаем список input
+			let rhombusArea1 = document.querySelectorAll(".rhombus-area-1");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < rhombusArea1.length; i++) {
+			rhombusArea1[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#rhombus-a-1');
+			let h = document.querySelector('#rhombus-h');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && h.value !== '') {
+			return document.querySelector('#rhombus-area-1').innerHTML = `S=${a.value*h.value}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь ромба по стороне и углу
+		<script type="text/javascript">
+			//Получаем список input
+			let rhombusArea2 = document.querySelectorAll(".rhombus-area-2");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < rhombusArea2.length; i++) {
+			rhombusArea2[i].addEventListener('keyup', function(i) {
+			let a = document.querySelector('#rhombus-a-2');
+			let alpha = document.querySelector('#rhombus-alpha');
+			//результат покажем, только когда будут заполнены все стороны
+			if (a.value !== '' && alpha.value !== '') {
+			return document.querySelector('#rhombus-area-2').innerHTML = `S=${a.value * a.value * Math.sin(alpha.value*Math.PI/180)}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+
+		//площадь ромба через диагонали
+		<script type="text/javascript">
+			//Получаем список input
+			let rhombusArea3 = document.querySelectorAll(".rhombus-area-3");
+			//В цикле каждому инпуту назначаем событие нажатие на клавишу.
+			for (i = 0; i < rhombusArea3.length; i++) {
+			rhombusArea3[i].addEventListener('keyup', function(i) {
+			let d1 = document.querySelector('#rhombus-d1');
+			let d2 = document.querySelector('#rhombus-d2');
+			//результат покажем, только когда будут заполнены все стороны
+			if (d1.value !== '' && d2.value !== '') {
+			return document.querySelector('#rhombus-area-3').innerHTML = `S=${d1.value*d2.value/2}`;
+			}
+			}.bind(this, i));
+			}
+		</script>
+		
 
 	</body>
 </html>
